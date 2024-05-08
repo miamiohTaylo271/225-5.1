@@ -92,7 +92,7 @@ def index():
                 <p>No contacts found.</p>
             {% endif %}
 
-            <a href="templates/game/JavaScript_Game.html" ">game</a>
+            <a href=“{{ url_for(‘static’, filename=‘game/JavaScript_Game.html’) }}“>game</a>
         </body>
         </html>
     ''', message=message, contacts=contacts)
