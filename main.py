@@ -91,6 +91,8 @@ def index():
             {% else %}
                 <p>No contacts found.</p>
             {% endif %}
+
+            <a href="game/JavaScript_Game.html" ">game</a>
         </body>
         </html>
     ''', message=message, contacts=contacts)
